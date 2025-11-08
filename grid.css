@@ -1,0 +1,25 @@
+
+#container {
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap:30px;
+}
+.box {
+    /* border:2px solid black; */
+}
+.one {
+    grid-column :1 / span 6;
+}
+.two {
+    grid-column :auto / span 3;
+}
+.three {
+    grid-column :1 / span 3;
+}
+.four {
+    grid-column :auto / span 6;
+}
+.five {
+    grid-column :10 / span 3;
+    grid-row:1 / span 2;
+}
