@@ -40,7 +40,7 @@ img {
 /*Body*/
 h1 {
     margin:-15px 30px;
-    font-size:23px;
+    font-size:20px;
 }
 .paragraph {
     margin:30px;
@@ -48,6 +48,9 @@ h1 {
 .one {
     background-color:hsl(263, 55%, 52%);
     color:white;
+    background-image:url("images/bg-pattern-quotation.svg");
+    background-repeat:no-repeat;
+    background-position: top right 50px;
     
 }
 .two {
